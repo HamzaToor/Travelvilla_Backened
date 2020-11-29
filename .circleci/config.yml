@@ -8,7 +8,6 @@ jobs:
     steps:
       - checkout
       - run: python main.py
-
 workflows:
   build_and_test:
     jobs:
