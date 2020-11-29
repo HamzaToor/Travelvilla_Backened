@@ -1,9 +1,4 @@
 version: 2.1
-
-jobs:
-  build-and-test:
-    executor: python/default
-  =======
   build:
     working_directory: ~/circleci-python
     docker:
