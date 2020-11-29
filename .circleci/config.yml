@@ -7,7 +7,7 @@ jobs:
       - image: "circleci/python:3.6.4"
     steps:
       - checkout
-      - run: python3 main.py
+      - run: python main.py
 
 workflows:
   build_and_test:
